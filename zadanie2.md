@@ -15,5 +15,17 @@ head [opcje] [plik]
 ```
 
 ## Opcje
-- -n **LICZBA**
+- -n **NUM**
+>Wyświetla pierwsze **NUM** linii pliku.\
+>Jeśli chcemy wyświetlić zawartość pliku, bez ostatnich kilku wierszy, to do liczby **NUM** po opcji -n dodajemy minus.
+
+- -c **NUM**
+>Wyświetla pierwsze **NUM** bajtów pliku.\
+>Jeśli chcemy wyświetlić zawartość pliku, bez ostatnich kilku bajtów, to do liczby **NUM** po opcji -n dodajemy minus.
+
+- -q
+>Nie wyświetla nagłówków plików
+
+- -v Zawsze wyświetla nagłowki plików
+
 
