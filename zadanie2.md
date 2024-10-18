@@ -14,3 +14,6 @@ Główne zastosowania komendy `head` to:
 head [opcje] [plik]
 ```
 
+## Opcje
+- -n **LICZBA**
+
