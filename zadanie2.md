@@ -28,4 +28,27 @@ head [opcje] [plik]
 
 - -v Zawsze wyświetla nagłowki plików
 
+## Przykłady
+
+1. **Wyświetlanie pierwszych 10 linijek tekstu**
+```bash
+head nazwa_pliku.txt
+```
+
+2. **Wyświetlanie pierwszych 5 linijek tekstu**
+```bash
+head -n 5 nazwa_pliku.txt
+```
+
+3. **Wyświetlanie pierwszych 20 bajtów pliku**
+```bash
+head -c 20 nazwa_pliku.txt
+```
+
+4. **Wyświetlenie linijek z kilku plików jednocześnie**
+```bash
+head plik1.txt plik2.txt
+```
+   
+
 
