@@ -4,10 +4,13 @@ Komenda `head` w systemie Linux służy do wyświetlania kilku pierwszych linije
 Pozwala ona w szybkim tempie podejrzeć zawartość pliku bez konieczności otwierania go w całości.
 
 ## Zastosowanie
+Główne zastosowania komendy `head` to:
 
-1. Główne zastosowania komendy `head` to:
-<br>
--Szybkie sprawdzenie zawartości pliku
-<br>
--Uzyskiwanie podglądów dużych plików bez ich pełnego przetwarzania
+- Szybkie sprawdzenie zawartości pliku
+- Uzyskiwanie podglądów dużych plików bez ich pełnego przetwarzania
+
+## Składnia
+```bash
+head [opcje] [plik]
+```
 
