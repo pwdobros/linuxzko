@@ -1,0 +1,2 @@
+# linuxzko
+linuxpolecenia2024
