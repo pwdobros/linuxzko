@@ -30,25 +30,33 @@ head [opcje] [plik]
 
 ## Przykłady
 
-1. **Wyświetlanie pierwszych 10 linijek tekstu**
+### 1. **Wyświetlanie pierwszych 10 linijek tekstu**
 ```bash
 head nazwa_pliku.txt
 ```
 
-2. **Wyświetlanie pierwszych 5 linijek tekstu**
+### 2. **Wyświetlanie pierwszych 5 linijek tekstu**
 ```bash
 head -n 5 nazwa_pliku.txt
 ```
 
-3. **Wyświetlanie pierwszych 20 bajtów pliku**
+### 3. **Wyświetlanie pierwszych 20 bajtów pliku**
 ```bash
 head -c 20 nazwa_pliku.txt
 ```
 
-4. **Wyświetlenie linijek z kilku plików jednocześnie**
+### 4. **Wyświetlenie linijek z kilku plików jednocześnie**
 ```bash
 head plik1.txt plik2.txt
 ```
+
+### 5. **Wyświetlanie wszystkich linijek w pliku które posiadają nagłówek
+```bash
+head -v nazwa_pliku.txt
+```
+
+## Podsumowanie
+Komenda `head` jest prosta, aczkolwiek bardzo przydatna, pozwala szybko podejrzeć zawartość pliku tekstowego i pomaga ich obsługę w systemach linux.
    
 
 
