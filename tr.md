@@ -4,7 +4,8 @@
 Komenda tr, która jest skrótem od "translate", to niezwykle przydatne narzędzie w systemach Unix i Linux, które umożliwia tłumaczenie, usuwanie oraz modyfikowanie znaków w strumieniach tekstowych, co czyni ją niezwykle użyteczną podczas przetwarzania danych oraz edytowania plików tekstowych w skryptach powłoki. Dzięki swojej prostocie oraz elastyczności, tr stała się niezastąpionym elementem zestawu narzędzi każdego programisty czy administratora systemu.
 # Składnia
 ```bash
-tr [opcje] zestaw_znaków1 zestaw_znaków2
+tr [opcje] zestaw_znaków1 zestaw_znaków
+```
 # Opcje
 Komenda tr oferuje szereg opcji, które zwiększają jej funkcjonalność, a wśród nich warto wyróżnić:
 --d: ta opcja pozwala na usuwanie określonych znaków z wejścia, co może być niezwykle przydatne w przypadku, gdy chcemy oczyścić tekst z niepożądanych elementów.
