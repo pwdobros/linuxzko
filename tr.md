@@ -17,20 +17,25 @@ Aby lepiej zrozumieć, jak działa komenda tr, przyjrzyjmy się kilku praktyczny
 Jednym z najprostszych zastosowań komendy tr jest zamiana liter małych na wielkie, co można osiągnąć w następujący sposób:
 ```bash
 echo "hello world" | tr 'a-z' 'A-Z'
+```
 Wynik: HELLO WORLD
 ## 2. Usuwanie znaków
 Można również użyć komendy tr do usunięcia określonych znaków, na przykład spacji, co można zrobić w ten sposób:
-bash
+```bash
 echo "Hello World" | tr -d ''
+```
 Wynik: Helloworld
 ## 3. Redukcja powtarzających się znaków
 Dzięki opcji -s możemy zredukować powtarzające się spacje do jednej, co czyni tekst bardziej czytelnym:
 ```bash
 echo "Hello World" | tr -s'
+```
 Wynik: Hello world
 ## 4. Użycie zestawów negowanych
 W przypadku, gdy chcemy zamienić wszystkie znaki, które nie są literami, na znak *, możemy zastosować opcję -c, co zrealizujemy w ten sposób:
 ```bash
-echo "Hello, World!" | tr -c 'a-zA-Z' '*' Wynik: Hello**World*
+echo "Hello, World!" | tr -c 'a-zA-Z' '*' 
+```
+Wynik: Hello**World*
 # Podsumowanie
 Jak widać, komenda tr oferuje szeroką gamę możliwości, które umożliwiają efektywne przetwarzanie i manipulację tekstem, a dzięki jej prostocie oraz wszechstronności można ją z łatwością włączyć do różnorodnych skryptów i procesów automatyzacji, co sprawia, że staje się nieocenionym narzędziem w codziennej pracy z danymi w systemach Unix i Linux. Warto zatem zaznajomić się z jej możliwościami, aby w pełni wykorzystać potencjał, jaki niesie ze sobą to potężne narzędzie.
